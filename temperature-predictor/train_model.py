@@ -3,7 +3,8 @@ from sklearn.linear_model import LinearRegression
 import pickle
 
 # Load dataset
-data = pd.read_csv('temperature.csv')
+data = pd.read_csv('data/temperature.csv')
+
 
 # Prepare data for model training
 X = data[['temperature']]
